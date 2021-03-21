@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.oy.dao")
+@MapperScan(basePackages = "com.oy.springboot_mybatis.dao")
 public class SpringbootMybatisApplication {
 
     public static void main(String[] args) {
