@@ -1,16 +1,12 @@
-mybatis:
-  # 扫描映射文件
-  mapper-locations: classpath:mapper/*.xml
-  # 配置别名扫描的包
-  type-aliases-package: com.oy.bean
-  configuration:
-    # 开启驼峰映射配置
-    map-underscore-to-camel-case: true
-# 连接数据库的信息
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql:///mytest?serverTimezone=UTC
     username: root
     password: 123
-    type: com.alibaba.druid.pool.DruidDataSource   
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.oy.springboot_mybatis.bean
+  configuration:
+    map-underscore-to-camel-case: true
