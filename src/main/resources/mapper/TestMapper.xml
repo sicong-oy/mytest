@@ -6,22 +6,50 @@
 <mapper namespace="com.oy.springboot_mybatis.dao.TestDao">
     <resultMap id="passengerResultMap" type="com.oy.springboot_mybatis.bean.Passenger">
         <id property="id" column="id"/>
-        <result property="name" column="name" />
-        <result property="sex" column="sex" />
-        <result property="birthday" column="birthday" />
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="birthday" column="birthday"/>
 
-        <!-- 关系表中数据的封装规则 -->	 <!-- 指定关系表的实体类型 -->
+        <!-- 关系表中数据的封装规则 -->     <!-- 指定关系表的实体类型 -->
         <association property="passport" javaType="com.oy.springboot_mybatis.bean.Passport">
-            <id property="id" column="passport_id" />
-            <result property="nationality" column="nationality" />
-            <result property="expire" column="expire" />
+            <id property="id" column="passport_id"/>
+            <result property="nationality" column="nationality"/>
+            <result property="expire" column="expire"/>
         </association>
     </resultMap>
 
+    <resultMap id="studentMap" type="com.oy.springboot_mybatis.bean.Student">
+        <id property="id" column="id"/>
+        <result property="sex" column="sex"/>
+        <result property="name" column="name"/>
+        <collection property="subjectsList" ofType="com.oy.springboot_mybatis.bean.Subjects">
+            <id property="id" column="sid"/>
+            <result property="name" column="sname"/>
+            <result property="grade" column="grade"/>
+        </collection>
+    </resultMap>
     <select id="selectPassengerById" resultMap="passengerResultMap">
-        SELECT p1.id , p1.name , p1.sex , p1.birthday , p2.id as passport_id , p2.nationality , p2.expire
-        FROM t_passengers p1 LEFT JOIN t_passports p2
-        ON p1.id = p2.passenger_id
-        WHERE p1.id = #{id}
+        SELECT
+            p1.id,
+            p1. NAME,
+            p1.sex,
+            p1.birthday,
+            p2.id AS passport_id,
+            p2.nationality,
+            p2.expire
+        FROM
+            t_passengers p1
+        LEFT JOIN t_passports p2 ON p1.id = p2.passenger_id
+        WHERE
+            p1.id = #{id}
     </select>
+    <select id="selectStudent" resultMap="studentMap">
+        SELECT s1.* ,s2.id as sid , s2.name as sname , s2.grade
+        FROM t_student s1 LEFT JOIN t_stu_sub ss
+        ON s1.id = ss.student_id
+        LEFT JOIN t_subject s2
+        ON ss.subject_id = s2.id
+    </select>
+
+
 </mapper>

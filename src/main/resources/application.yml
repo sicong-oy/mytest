@@ -10,3 +10,8 @@ mybatis:
   type-aliases-package: com.oy.springboot_mybatis.bean
   configuration:
     map-underscore-to-camel-case: true
+logging:
+  level:
+    com.oy.springboot_mybatis.dao.TestDao: debug
+  file:
+    name: mylog.log

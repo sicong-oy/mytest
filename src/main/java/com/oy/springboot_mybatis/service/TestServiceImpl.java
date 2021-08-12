@@ -1,6 +1,7 @@
 package com.oy.springboot_mybatis.service;
 
 import com.oy.springboot_mybatis.bean.Passenger;
+import com.oy.springboot_mybatis.bean.Student;
 import com.oy.springboot_mybatis.dao.TestDao;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +15,11 @@ public class TestServiceImpl implements TestService{
     @Override
     public Passenger showList(Integer id) {
         return testDao.selectPassengerById(id);
+    }
+
+    @Override
+    public Student showStudent() {
+        return testDao.selectStudent();
     }
 
 }

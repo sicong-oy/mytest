@@ -1,0 +1,102 @@
+2021-08-12 20:38:38.230  INFO 13376 --- [main] c.o.s.SpringbootMybatisApplication       : Starting SpringbootMybatisApplication using Java 1.8.0_131 on DESKTOP-7H3619L with PID 13376 (D:\IdeaProjects\2002\springboot_mybatis\target\classes started by oysc in D:\IdeaProjects\2002\springboot_mybatis)
+2021-08-12 20:38:38.234  INFO 13376 --- [main] c.o.s.SpringbootMybatisApplication       : No active profile set, falling back to default profiles: default
+2021-08-12 20:38:39.039  INFO 13376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-12 20:38:39.051  INFO 13376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 20:38:39.051  INFO 13376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-08-12 20:38:39.052  INFO 13376 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-12 20:38:39.053  INFO 13376 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-12 20:38:39.053  INFO 13376 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-12 20:38:39.053  INFO 13376 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 20:38:40.085  INFO 13376 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-12 20:38:40.187  INFO 13376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 20:38:40.187  INFO 13376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1914 ms
+2021-08-12 20:38:40.312  INFO 13376 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-08-12 20:38:40.409  INFO 13376 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-08-12 20:38:40.654  INFO 13376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 20:38:40.881  INFO 13376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 20:38:40.888  INFO 13376 --- [main] c.o.s.SpringbootMybatisApplication       : Started SpringbootMybatisApplication in 3.062 seconds (JVM running for 3.878)
+2021-08-12 21:27:20.549  INFO 292 --- [main] c.o.s.SpringbootMybatisApplication       : Starting SpringbootMybatisApplication using Java 1.8.0_131 on DESKTOP-7H3619L with PID 292 (D:\IdeaProjects\2002\springboot_mybatis\target\classes started by oysc in D:\IdeaProjects\2002\springboot_mybatis)
+2021-08-12 21:27:20.550  INFO 292 --- [main] c.o.s.SpringbootMybatisApplication       : No active profile set, falling back to default profiles: default
+2021-08-12 21:27:21.183  INFO 292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-12 21:27:21.189  INFO 292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 21:27:21.189  INFO 292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-08-12 21:27:21.190  INFO 292 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-12 21:27:21.191  INFO 292 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-12 21:27:21.191  INFO 292 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-12 21:27:21.191  INFO 292 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 21:27:22.225  INFO 292 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-12 21:27:22.283  INFO 292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 21:27:22.283  INFO 292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1701 ms
+2021-08-12 21:27:22.368  INFO 292 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-08-12 21:27:22.444  INFO 292 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-08-12 21:27:22.599  INFO 292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 21:27:22.805  INFO 292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 21:27:22.811  INFO 292 --- [main] c.o.s.SpringbootMybatisApplication       : Started SpringbootMybatisApplication in 2.553 seconds (JVM running for 3.173)
+2021-08-12 21:28:34.124  INFO 1616 --- [main] c.o.s.SpringbootMybatisApplication       : Starting SpringbootMybatisApplication using Java 1.8.0_131 on DESKTOP-7H3619L with PID 1616 (D:\IdeaProjects\2002\springboot_mybatis\target\classes started by oysc in D:\IdeaProjects\2002\springboot_mybatis)
+2021-08-12 21:28:34.126  INFO 1616 --- [main] c.o.s.SpringbootMybatisApplication       : No active profile set, falling back to default profiles: default
+2021-08-12 21:28:34.795  INFO 1616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-12 21:28:34.800  INFO 1616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 21:28:34.800  INFO 1616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-08-12 21:28:34.801  INFO 1616 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-12 21:28:34.801  INFO 1616 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-12 21:28:34.801  INFO 1616 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-12 21:28:34.802  INFO 1616 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 21:28:35.844  INFO 1616 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-12 21:28:35.900  INFO 1616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 21:28:35.900  INFO 1616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1740 ms
+2021-08-12 21:28:35.992  INFO 1616 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-08-12 21:28:36.079  INFO 1616 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-08-12 21:28:36.244  INFO 1616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 21:28:36.453  INFO 1616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 21:28:36.459  INFO 1616 --- [main] c.o.s.SpringbootMybatisApplication       : Started SpringbootMybatisApplication in 2.65 seconds (JVM running for 3.296)
+2021-08-12 21:30:31.382  INFO 16800 --- [main] c.o.s.SpringbootMybatisApplication       : Starting SpringbootMybatisApplication using Java 1.8.0_131 on DESKTOP-7H3619L with PID 16800 (D:\IdeaProjects\2002\springboot_mybatis\target\classes started by oysc in D:\IdeaProjects\2002\springboot_mybatis)
+2021-08-12 21:30:31.384  INFO 16800 --- [main] c.o.s.SpringbootMybatisApplication       : No active profile set, falling back to default profiles: default
+2021-08-12 21:30:32.079  INFO 16800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-12 21:30:32.086  INFO 16800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 21:30:32.086  INFO 16800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-08-12 21:30:32.087  INFO 16800 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-12 21:30:32.088  INFO 16800 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-12 21:30:32.088  INFO 16800 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-12 21:30:32.088  INFO 16800 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 21:30:33.119  INFO 16800 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-12 21:30:33.172  INFO 16800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 21:30:33.172  INFO 16800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1755 ms
+2021-08-12 21:30:33.276  INFO 16800 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-08-12 21:30:33.364  INFO 16800 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-08-12 21:30:33.547  INFO 16800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 21:30:33.762  INFO 16800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 21:30:33.769  INFO 16800 --- [main] c.o.s.SpringbootMybatisApplication       : Started SpringbootMybatisApplication in 2.72 seconds (JVM running for 3.717)
+2021-08-12 21:31:27.425  INFO 16800 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 21:31:27.426  INFO 16800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 21:31:27.427  INFO 16800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-12 21:31:27.591 DEBUG 16800 --- [http-nio-8080-exec-1] c.o.s.dao.TestDao.selectStudent          : ==>  Preparing: SELECT s1.* ,s2.id as sid , s2.name as sname , s2.grade FROM t_student s1 LEFT JOIN t_stu_sub ss ON s1.id = ss.student_id LEFT JOIN t_subject s2 ON ss.subject_id = s2.id 
+2021-08-12 21:31:27.610 DEBUG 16800 --- [http-nio-8080-exec-1] c.o.s.dao.TestDao.selectStudent          : ==> Parameters: 
+2021-08-12 21:31:27.631 DEBUG 16800 --- [http-nio-8080-exec-1] c.o.s.dao.TestDao.selectStudent          : <==      Total: 1
+2021-08-12 21:32:24.900 DEBUG 16800 --- [http-nio-8080-exec-4] c.o.s.dao.TestDao.selectStudent          : ==>  Preparing: SELECT s1.* ,s2.id as sid , s2.name as sname , s2.grade FROM t_student s1 LEFT JOIN t_stu_sub ss ON s1.id = ss.student_id LEFT JOIN t_subject s2 ON ss.subject_id = s2.id 
+2021-08-12 21:32:24.901 DEBUG 16800 --- [http-nio-8080-exec-4] c.o.s.dao.TestDao.selectStudent          : ==> Parameters: 
+2021-08-12 21:32:24.902 DEBUG 16800 --- [http-nio-8080-exec-4] c.o.s.dao.TestDao.selectStudent          : <==      Total: 1
+2021-08-12 21:33:42.566  INFO 16800 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-12 21:33:42.570  INFO 16800 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-08-12 21:33:45.213  INFO 11664 --- [main] c.o.s.SpringbootMybatisApplication       : Starting SpringbootMybatisApplication using Java 1.8.0_131 on DESKTOP-7H3619L with PID 11664 (D:\IdeaProjects\2002\springboot_mybatis\target\classes started by oysc in D:\IdeaProjects\2002\springboot_mybatis)
+2021-08-12 21:33:45.215  INFO 11664 --- [main] c.o.s.SpringbootMybatisApplication       : No active profile set, falling back to default profiles: default
+2021-08-12 21:33:46.075  INFO 11664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-12 21:33:46.082  INFO 11664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 21:33:46.082  INFO 11664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-08-12 21:33:46.083  INFO 11664 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-08-12 21:33:46.083  INFO 11664 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-08-12 21:33:46.083  INFO 11664 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-12 21:33:46.084  INFO 11664 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 21:33:47.120  INFO 11664 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-08-12 21:33:47.173  INFO 11664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 21:33:47.173  INFO 11664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1913 ms
+2021-08-12 21:33:47.279  INFO 11664 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-08-12 21:33:47.368  INFO 11664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-08-12 21:33:47.555  INFO 11664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-12 21:33:47.767  INFO 11664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-12 21:33:47.774  INFO 11664 --- [main] c.o.s.SpringbootMybatisApplication       : Started SpringbootMybatisApplication in 2.939 seconds (JVM running for 3.676)
+2021-08-12 21:33:52.549  INFO 11664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 21:33:52.549  INFO 11664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 21:33:52.550  INFO 11664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-12 21:33:52.689 DEBUG 11664 --- [http-nio-8080-exec-1] c.o.s.dao.TestDao.selectStudent          : ==>  Preparing: SELECT s1.* ,s2.id as sid , s2.name as sname , s2.grade FROM t_student s1 LEFT JOIN t_stu_sub ss ON s1.id = ss.student_id LEFT JOIN t_subject s2 ON ss.subject_id = s2.id 
+2021-08-12 21:33:52.707 DEBUG 11664 --- [http-nio-8080-exec-1] c.o.s.dao.TestDao.selectStudent          : ==> Parameters: 
+2021-08-12 21:33:52.727 DEBUG 11664 --- [http-nio-8080-exec-1] c.o.s.dao.TestDao.selectStudent          : <==      Total: 1
